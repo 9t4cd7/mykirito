@@ -22,7 +22,7 @@ var anti_check = 0;//開啟破解反腳本
 function emailsend(){
     Email.send({
         SecureToken : "68a7986c-5829-42ce-9458-a552df2f9276",
-        To : "hhh5911.jp@gmail.com",  /*填入你的EMAIL，寄信是用禾的GMAIL母咪*/
+        To : "你的email",  /*填入你的EMAIL，寄信是用禾的GMAIL母咪*/
         From : "astria@astriaworks.moe",
         Subject : "我的桐人跳反腳本偵測了 ID: "+playername[0].textContent,
         Body : "我的桐人跳反腳本偵測了 ID: "+playername[0].textContent
